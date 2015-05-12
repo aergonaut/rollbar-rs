@@ -1,0 +1,7 @@
+[package]
+name = "rollbar"
+version = "0.1.0"
+authors = ["Chris Fung <aergonaut@gmail.com>"]
+
+[dependencies]
+hyper = "0.4"
