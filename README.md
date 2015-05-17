@@ -1,5 +1,7 @@
 # rollbar-rs: A Rollbar notifier for Rust
 
+[![Build Status](https://travis-ci.org/aergonaut/rollbar-rs.svg)](https://travis-ci.org/aergonaut/rollbar-rs)
+
 rollbar-rs is a simple [Rollbar](https://rollbar.com/) notifier for
 [Rust](http://rust-lang.org).
 
@@ -27,6 +29,15 @@ let rollbar = Client::new("<YOUR_ROLLBAR_ACCESS_TOKEN>", "production", "your_app
 ```
 
 When you encounter an error, use the `report` function on the client.
+
+## Contributing
+
+1. Fork the reposiptory
+2. Create a feature branch
+3. Push your branch to GitHub
+4. Open a Pull Request
+
+Please include tests in your PR!
 
 ## License
 
