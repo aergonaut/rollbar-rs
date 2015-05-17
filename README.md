@@ -1,5 +1,33 @@
 # rollbar-rs: A Rollbar notifier for Rust
 
+rollbar-rs is a simple [Rollbar](https://rollbar.com/) notifier for
+[Rust](http://rust-lang.org).
+
+## Installation
+
+Add it to your `Cargo.toml`:
+
+```toml
+[dependencies]
+rollbar = "0.1"
+```
+
+Then add the crate to your code:
+
+```rust
+extern crate rollbar;
+```
+
+## Usage
+
+Create a client:
+
+```rust
+let rollbar = Client::new("<YOUR_ROLLBAR_ACCESS_TOKEN>", "production", "your_app_name", "0.1.0");
+```
+
+When you encounter an error, use the `report` function on the client.
+
 ## License
 
 The MIT License (MIT)
