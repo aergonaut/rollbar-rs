@@ -1,3 +1,5 @@
+#![doc(html_root_url = "https://aergonaut.com/rollbar-rs/")]
+
 //! # Rollbar
 //! 
 //! Rollbar is a notifier library for the [Rollbar](http://rollbar.com) error
